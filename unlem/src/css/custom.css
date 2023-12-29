@@ -1,8 +1,9 @@
-/**
- * unlem template
- */
+/* unlem template */
+/* custom font load */
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
-/* unlem light mode. */
+ /* unlem css light mode. */
+ 
 :root {
   --ifm-color-primary: #007ec6;
   --ifm-color-primary-dark: #0065aa;
@@ -15,9 +16,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-
-
-/*  unlem dark mode. */
+/*  unlem css dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #007ec6;
   --ifm-color-primary-dark: #0065aa;
@@ -28,12 +27,37 @@
   --ifm-color-primary-lightest: #96d6fd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
 /* logo header  */
 
 .navbar__logo img {
  
   transform: scale(6,5);
   margin-right: 24px;
-  flex: 0 0 auto;
   height: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
 }
