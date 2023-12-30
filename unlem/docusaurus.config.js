@@ -66,12 +66,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'UNLEM',
+        title: '',
         logo: {
           alt: 'UNLEM A.S.',
-          src: 'https://unlembilisim.com/download/cercevesiz-beyaz-svg.svg',
-          width:'80px',
-          height:'30px'
+          src: '/img/logo.svg'
+      
         },
         items: [
           {
