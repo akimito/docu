@@ -3,6 +3,7 @@
   padding:0 var(--ifm-spacing-horizontal);
   width:100%
 }
+
 .row .col,
 img {
   max-width:100%
@@ -88,7 +89,11 @@ html {
   -webkit-tap-highlight-color:transparent
 }
 
+
+
 /* logo header  */
+
+
 
   /*  unlem css dark mode. */
   [data-theme='dark'] {
@@ -1974,9 +1979,14 @@ html[data-theme=dark] {
   text-decoration:none
 }
 .docs-wrapper,
-.landing-page-head,
+.landing-page-head
+ {
+  display:flex;
+  flex-direction: column;
+}
+
 .pagination-nav {
-  display:flex
+  display:flex;
 }
 .pagination-nav__item {
   display:flex;
