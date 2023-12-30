@@ -1,11 +1,13 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Language',
-    Svg: require('@site/static/img/application-coding-web-cog-config-options-svgrepo-com.svg').default,
+    scale: 0.75,
+    title: "Language",
+    Svg: require("@site/static/img/application-coding-web-cog-config-options-svgrepo-com.svg")
+      .default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -14,8 +16,10 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Application',
-    Svg: require('@site/static/img/application-coding-web-page-add-svgrepo-com.svg').default,
+    scale: 0.75,
+    title: "Application",
+    Svg: require("@site/static/img/application-coding-web-page-add-svgrepo-com.svg")
+      .default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,8 +28,10 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/application-coding-web-page-hot-fire-svgrepo-com.svg').default,
+    scale: 0.75,
+    title: "Overview",
+    Svg: require("@site/static/img/application-coding-web-page-hot-fire-svgrepo-com.svg")
+      .default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,15 +41,19 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+
+    <div class="landing-page-card">
+      <div class="landing-page-card-header">
         <Svg className={styles.featureSvg} role="img" />
+
+        <div class="landing-page-card-header-title">{title}</div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div class="landing-page-card-description">{description}</div>
+
+      <div class="landing-page-card-link">
+        <div class="landing-page-card-link-title">Start Now</div>
       </div>
     </div>
   );
@@ -52,8 +62,8 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className="landing-page-container">
+        <div className="landing-page-cards">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

@@ -18,9 +18,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button-md"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            header
           </Link>
         </div>
       </div>
@@ -36,8 +36,36 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div class="landing-page-container">
+      <div class="landing-page-head">
+        <div class="landing-page-head-left">
+          
+          <div class="landing-page-head-title landing-page-head-title-mute">
+            Welcome,</div>
+            
+            <div class="landing-page-head-title">ÜNLEM</div>
+            
+            <div class="landing-page-head-description">Start your for Documents.</div>
+            
+            </div>
+
+            <div class="landing-page-head-right">
+
+            <div class="landing-page-card-header-title">Apps</div>
+            
+            </div>
+            
+            <div class="landing-page-card-description">Create awesome integrations and apps with our app development kit.
+            </div>
+            
+            </div>
+
+          </div>
+
+          <HomepageFeatures />
+
       </main>
+
     </Layout>
   );
 }

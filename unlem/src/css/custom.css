@@ -6,12 +6,12 @@
  
 :root {
   --ifm-color-primary: #007ec6;
-  --ifm-color-primary-dark: #0065aa;
-  --ifm-color-primary-darker: #004d8f;
-  --ifm-color-primary-darkest: #003675;
-  --ifm-color-primary-light: #00b4ff;
-  --ifm-color-primary-lighter: #84d0ff;
-  --ifm-color-primary-lightest: #96d6fd;
+  --ifm-color-primary-dark: #0071b2;
+  --ifm-color-primary-darker: #006ba8;
+  --ifm-color-primary-darkest: #00588b;
+  --ifm-color-primary-light: #008bda;
+  --ifm-color-primary-lighter: #0091e4;
+  --ifm-color-primary-lightest: #02a3ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -19,12 +19,12 @@
 /*  unlem css dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #007ec6;
-  --ifm-color-primary-dark: #0065aa;
-  --ifm-color-primary-darker: #004d8f;
-  --ifm-color-primary-darkest: #003675;
-  --ifm-color-primary-light: #00b4ff;
-  --ifm-color-primary-lighter: #84d0ff;
-  --ifm-color-primary-lightest: #96d6fd;
+  --ifm-color-primary-dark: #0071b2;
+  --ifm-color-primary-darker: #006ba8;
+  --ifm-color-primary-darkest: #00588b;
+  --ifm-color-primary-light: #008bda;
+  --ifm-color-primary-lighter: #0091e4;
+  --ifm-color-primary-lightest: #02a3ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -39,6 +39,138 @@ body {
   transform: scale(6,5);
   margin-right: 24px;
   height: 30px;
+}
+
+.featureSvg {
+  height: 34px;
+  width: 34px;
+}
+
+.landing-row {
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  min-height:100%
+}
+
+.landing-page-layout {
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  min-height:100%
+}
+.landing-page-layout>.main-wrapper {
+  flex:1 0 0
+}
+.landing-page {
+  background-color:var(--color-new-gray-50);
+  font-family:Poppins,sans-serif;
+  height:100%;
+  min-width:360px;
+  overflow:hidden;
+  padding-left:25px;
+  padding-right:25px
+}
+.landing-page-container {
+  height:100%;
+  margin:0 auto;
+  max-width:1080px;
+  padding-bottom:79px;
+  padding-top:104px;
+  position:relative
+}
+.landing-page-head-left .landing-page-head-title {
+  color:var(--color-new-gray-900);
+  font-size:64px;
+  font-weight:600;
+  line-height:80px
+}
+.landing-page-head-left .landing-page-head-title-mute {
+  color:var(--color-new-gray-400)
+}
+.landing-page-head-left .landing-page-head-description {
+  color:var(--color-new-gray-300);
+  font-size:20px;
+  line-height:30px;
+  margin-bottom:0;
+  margin-top:32px;
+  width:55%
+}
+.landing-page-head-right {
+  right:-170px;
+  top:0;
+  z-index:2
+}
+.landing-page-light {
+  position:absolute;
+  right:-180px;
+  top:120px;
+  z-index:1
+}
+.landing-page-cards {
+  display:flex;
+  flex-direction: row;
+  gap:51px;
+  margin-top:10px;
+  position:relative;
+  z-index:3
+}
+.landing-page-cards .landing-page-card {
+  background-color:#ffffff4d;
+  border:1px solid var(--color-new-gray-100);
+  border-radius:8px;
+  box-shadow:0 0 40px 0 rgba(0,0,0,.051);
+  color:var(--color-new-gray-900);
+  cursor:pointer;
+  flex:1;
+  padding:32px 24px 24px;
+  position:relative;
+  transition:.3s
+}
+.landing-page-cards .landing-page-card:hover {
+  text-decoration:none;
+  transform:translateY(-10px)
+}
+.landing-page-cards .landing-page-card-badge {
+  background:var(--color-new-gray-50);
+  border:1px solid var(--color-new-gray-100);
+  border-radius:100px;
+  font-size:14px;
+  font-weight:500;
+  left:calc(50% - 41.5px);
+  line-height:21px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:6px 12px;
+  text-align:center;
+  top:-17.5px
+}
+
+.landing-page-cards .landing-page-card-header-title {
+  font-size:18px;
+  font-weight:600;
+  line-height:27px;
+  margin-left:17px
+}
+.landing-page-cards .landing-page-card-description {
+  font-family:Plus Jakarta Sans;
+  font-size:16px;
+  font-weight:400;
+  line-height:24px;
+  margin:17px 0 24px
+}
+.landing-page-cards .landing-page-card-link {
+  align-items:center;
+  color:var(--color-new-gray-900);
+  cursor:pointer;
+  display:inline-flex
+}
+.landing-page-cards .landing-page-card-link-title {
+  font-size:18px;
+  font-weight:600;
+  line-height:32px;
+  margin-right:15px;
+  text-decoration-line:underline
 }
 
 @media screen and (max-width: 996px) {
