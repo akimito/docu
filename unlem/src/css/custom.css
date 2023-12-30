@@ -1064,7 +1064,7 @@ hr {
 }
 .alert--primary {
   --ifm-alert-background-color:var(--ifm-color-primary-contrast-background);
-  --ifm-alert-background-color-highlight:#3578e526;
+  --ifm-alert-background-color-highlight:#236de426;
   --ifm-alert-foreground-color:var(--ifm-color-primary-contrast-foreground);
   --ifm-alert-border-color:var(--ifm-color-primary-dark)
 }
@@ -2116,13 +2116,13 @@ html[data-theme=dark] {
   --ifm-color-warning-contrast-foreground:#fff8e6;
   --ifm-color-danger-contrast-background:#4b1113;
   --ifm-color-danger-contrast-foreground:#ffebec;
-  --ifm-color-primary:#7d87dd;
-  --ifm-color-primary-dark:#626ed6;
-  --ifm-color-primary-darker:#5461d2;
-  --ifm-color-primary-darkest:#3241c0;
-  --ifm-color-primary-light:#98a0e4;
-  --ifm-color-primary-lighter:#a6ade8;
-  --ifm-color-primary-lightest:#cfd3f3;
+  --ifm-color-primary: #4ab5f3;
+  --ifm-color-primary-dark: #0071b2;
+  --ifm-color-primary-darker: #006ba8;
+  --ifm-color-primary-darkest: #00588b;
+  --ifm-color-primary-light: #008bda;
+  --ifm-color-primary-lighter: #0091e4;
+  --ifm-color-primary-lightest: #02a3ff;
   --color-border:#606770
 }
 .admonition h5 {
@@ -2146,13 +2146,13 @@ html[data-theme=dark] {
 }
 :root {
   --ifm-font-size-base:15px;
-  --ifm-color-primary:#007ec6;
-  --ifm-color-primary-dark:#3241bd;
-  --ifm-color-primary-darker:#2f3db3;
-  --ifm-color-primary-darkest:#273293;
-  --ifm-color-primary-light:#5360d2;
-  --ifm-color-primary-lighter:#5e6ad4;
-  --ifm-color-primary-lightest:#7d87dd;
+  --ifm-color-primary: #007ec6;
+  --ifm-color-primary-dark: #0071b2;
+  --ifm-color-primary-darker: #006ba8;
+  --ifm-color-primary-darkest: #00588b;
+  --ifm-color-primary-light: #008bda;
+  --ifm-color-primary-lighter: #0091e4;
+  --ifm-color-primary-lightest: #02a3ff;
   --ifm-code-font-size:95%;
   --ifm-navbar-height:80px;
   --ifm-heading-line-height:2;
@@ -2208,7 +2208,7 @@ html[data-theme=dark] .docusaurus-highlight-code-line {
   background:var(--ifm-menu-link-sublist-icon) 50%/1.3rem 1.3rem
 }
 .graphql-field-name {
-  background-color:#7d87dd33;
+  background-color:#0d71f333;
   color:var(--ifm-color-primary);
   font-size:90%;
   font-weight:600;
@@ -2276,7 +2276,7 @@ html[data-theme=dark] .docusaurus-highlight-code-line {
   font-size:14px
 }
 .file-tree .folder-group .description {
-  color:#7d87dd;
+  color:#007ec6;
   font-size:11px;
   margin-left:20px
 }
@@ -2299,7 +2299,7 @@ html[data-theme=dark] .file-tree {
   box-shadow:0 0 10px #29d,0 0 5px #29d;
   height:100%;
   opacity:1;
-  /* position:absolute; */
+  position:absolute;
   right:0;
   transform:rotate(3deg) translateY(-4px);
   width:100px
@@ -2327,7 +2327,7 @@ html[data-theme=dark] .file-tree {
   border-width:var(--docusaurus-details-summary-arrow-size);
   content:"";
   left:0;
-  /* position:absolute; */
+  position:absolute;
   top:.45rem;
   transform:rotate(0);
   transform-origin:calc(var(--docusaurus-details-summary-arrow-size)/2) 50%;
@@ -2397,7 +2397,7 @@ html[data-announcement-bar-initially-dismissed=true] .announcementBar_axC9 {
   height:1px;
   margin:-1px;
   overflow:hidden;
-  /* position:absolute; */
+  position:absolute;
   width:1px
 }
 .toggleDisabled_xj38 {
@@ -2444,7 +2444,7 @@ html[data-announcement-bar-initially-dismissed=true] .announcementBar_axC9 {
   border-radius:50%;
   height:22px;
   left:1px;
-  /* position:absolute; */
+  position:absolute;
   top:1px;
   transition:.25s;
   width:22px
@@ -2578,7 +2578,6 @@ body:not(.navigation-with-keyboard) :not(input):focus {
   position:relative
 }
 .landing-page-head-left .landing-page-head-title {
-  color:var(--color-new-gray-900);
   font-size:64px;
   font-weight:600;
   line-height:80px
@@ -2640,7 +2639,7 @@ body:not(.navigation-with-keyboard) :not(input):focus {
   margin-left:auto;
   margin-right:auto;
   padding:6px 12px;
-  /* position:absolute; */
+  position:absolute;
   text-align:center;
   top:-17.5px
 }
@@ -2697,7 +2696,7 @@ body:not(.navigation-with-keyboard) :not(input):focus {
   color:var(--ifm-color-white);
   opacity:0;
   padding:.4rem .5rem;
-  /* position:absolute; */
+  position:absolute;
   right:calc(var(--ifm-pre-padding)/2);
   top:calc(var(--ifm-pre-padding)/2);
   transition:opacity .2s ease-in-out;
@@ -2738,7 +2737,7 @@ body:not(.navigation-with-keyboard) :not(input):focus {
 .tagWithCount_S5Zl:before {
   border:1px solid var(--docusaurus-tag-list-border);
   content:"";
-  /* position:absolute; */
+  position:absolute;
   top:50%;
   transition:inherit
 }

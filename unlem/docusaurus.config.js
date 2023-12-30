@@ -77,11 +77,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Application',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/akimito/docu',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,7 +94,7 @@ const config = {
             title: 'Unlem',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Application',
                 to: '/docs/intro',
               },
             ],
@@ -104,15 +104,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/',
               },
             ],
           },
@@ -125,12 +125,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/akimito/docu',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ÜNLEM Application Documents, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ÜNLEM Application Documents`,
       },
       prism: {
         theme: prismThemes.github,
