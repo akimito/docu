@@ -1,3 +1,5 @@
+/* unlem */
+
 @import url(https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
 .container,.row .col {
   padding:0 var(--ifm-spacing-horizontal);
@@ -89,11 +91,18 @@ html {
   -webkit-tap-highlight-color:transparent
 }
 
-
-
 /* logo header  */
 
+[data-theme='light'] {
 
+  --ifm-color-primary-dark: #0071b2;
+  --ifm-color-primary-darker: #006ba8;
+  --ifm-color-primary-darkest: #00588b;
+
+  --ifm-color-primary-light: #008bda;
+  --ifm-color-primary-lighter: #0091e4;
+  --ifm-color-primary-lightest: #02a3ff;
+}
 
   /*  unlem css dark mode. */
   [data-theme='dark'] {
@@ -106,6 +115,9 @@ html {
     --ifm-color-primary-lightest: #02a3ff;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   }
+
+    /*  unlem css light mode. */
+
 
 :root {
   --ifm-color-scheme:light;
@@ -128,14 +140,6 @@ html {
   --ifm-color-danger:#fa383e;
 
   
-
-  --ifm-color-primary-dark: #0071b2;
-  --ifm-color-primary-darker: #006ba8;
-  --ifm-color-primary-darkest: #00588b;
-
-  --ifm-color-primary-light: #008bda;
-  --ifm-color-primary-lighter: #0091e4;
-  --ifm-color-primary-lightest: #02a3ff;
 
   --ifm-color-primary-contrast-background:#ebf2fc;
   --ifm-color-primary-contrast-foreground:#102445;
