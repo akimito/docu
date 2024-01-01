@@ -2,22 +2,23 @@
 sidebar_position: 2
 ---
 
-# Language i18n
+# Language
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+**Language i18n**
 
-Docusaurus has **much more to offer**!
+Internationalization (i18n) is the process of preparing software to support local languages and cultural settings for other markets. An internationalized product supports the requirements of local markets worldwide, functioning more appropriately based on local norms, and better meeting in-country user expectations.
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+**Complete solution**
+Most frameworks leave it to you how translations are being loaded. You are responsible to detect the user language, to load the translations and push them into the framework.
+i18next takes care of these issues for you. We provide you with plugins to:
+- detect the user language
+- load the translations
+- optionally cache the translations
+- extension, by using post-processing - e.g. to enable sprintf support
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+***Flexibility**
+i18next comes with strong defaults but it is flexible enough to fulfill custom needs.
 
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+- Use moment.js over intl for date formatting?
+- Prefer different pre- and suffixes for interpolation?
+- Like gettext style keys better?
