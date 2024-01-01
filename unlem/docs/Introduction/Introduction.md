@@ -1,16 +1,21 @@
 ---
-sidebar_position: 3
+sidebar_position: 0
+sidebar_label: Introduction
+sidebar_class_name: Blue
+
 ---
 
-# Overview
+# Introduction
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+API Address: https://api.
 
-Docusaurus has **much more to offer**!
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+## API Scopes​
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+Ünlem API provides scopes to grant permissions to apps that calls Ünlem API. Scopes and their descriptions are given below. You can specify these scopes while you create your Private App.
+Scope Definitions​
+- View Products [read_products](https://docusaurus.io/)
+
 
 ## What's next?
 
