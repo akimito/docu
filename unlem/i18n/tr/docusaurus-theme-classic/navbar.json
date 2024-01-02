@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "UNLEM A.S.",
+    "description": "Unlem"
+  },
+  "item.label.Application": {
+    "message": "Uygulamalar",
+    "description": "Uygulamalar"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Güncel"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

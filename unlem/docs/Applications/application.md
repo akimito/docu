@@ -16,4 +16,5 @@ Application Information
 - Health Status Link **[input]** 
 - Control Period **[input]** 
 
-![Docusaurus Plushie](./app.png)
+![](/.app.png)
+**authors:** Akgün

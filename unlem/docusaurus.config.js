@@ -1,50 +1,37 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
-
-/** @type {import('@docusaurus/types').Config} */
+import { themes as prismThemes } from "prism-react-renderer";
 const config = {
-  title: 'Unlem',
-  tagline: 'Application Documents',
-  favicon: 'img/favicon.ico',
+  title: "Unlem",
+  tagline: "Application Documents",
+  favicon: "img/favicon.ico",
+  url: "https://your-docusaurus-site.example.com",
+  baseUrl: "/",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "Application Documents", // Usually your repo name.
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'Application Documents', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  themeConfig: {
+    navbar: {
+      items: [
+        {
+          type: "localeDropdown",
+          position: "left",
+        },
+      ],
+    },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-         //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +41,7 @@ const config = {
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       },
     ],
@@ -65,74 +52,74 @@ const config = {
     ({
       themeConfig: {
         docs: {
-      sidebar: {
-        autoCollapseCategories: true, },
+          sidebar: {
+            autoCollapseCategories: true,
+          },
+        },
       },
-    },
 
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: '',
+        title: "",
         logo: {
-          alt: 'UNLEM A.S.',
-          src: '/img/logo.svg'
-      
+          alt: "UNLEM A.S.",
+          src: "/img/logo.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Application',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Application",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/akimito/docu',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/akimito/docu",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Unlem',
+            title: "Unlem",
             items: [
               {
-                label: 'Application',
-                to: '/docs/intro',
+                label: "Application",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/',
+                label: "Discord",
+                href: "https://discordapp.com/invite/",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/',
+                label: "Twitter",
+                href: "https://twitter.com/",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/akimito/docu',
+                label: "GitHub",
+                href: "https://github.com/akimito/docu",
               },
             ],
           },
@@ -144,6 +131,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    plugins: [],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "tr"],
+  },
 };
 
 export default config;
