@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/akimito/docu"
   },
   "copyright": {
-    "message": "Telif Hakkı © 2024 ÜNLEM Dokümanlar",
-    "description": "Altbilgi telif hakkı"
+    "message": "Copyright © 2024 ÜNLEM Application Documents",
+    "description": "The footer copyright"
   }
 }

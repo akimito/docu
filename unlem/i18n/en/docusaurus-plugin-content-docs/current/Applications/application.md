@@ -1,4 +1,4 @@
----
+~~---
 sidebar_position: 6
 ---
 
@@ -16,4 +16,4 @@ About Application
 - Health Status Link **[input]** 
 - Control Range **[input]**
 
-![Docusaurus Plushie](./media/app.png)
+!~~[Docusaurus Plushie](./media/app.png)

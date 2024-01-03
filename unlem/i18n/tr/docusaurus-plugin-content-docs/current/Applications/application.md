@@ -7,7 +7,7 @@ sidebar_position: 6
 Uygulamalar Hakkında
 
 - Uygulama ikon **[input]** 
-- Uygulama kod **[input]** 
+- Uygulama kodu **[input]** 
 - Uygulama adı **[input]** 
 - Alanadı **[input]** 
 - Aktif veya Pasif Seçenekleri  **[Default]** Pasif 

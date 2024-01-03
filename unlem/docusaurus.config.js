@@ -1,6 +1,6 @@
 import { themes as prismThemes } from "prism-react-renderer";
 const config = {
-  title: "Unlem",
+  title: "Ünlem",
   tagline: "Application Documents",
   favicon: "img/favicon.ico",
   url: "https://your-docusaurus-site.example.com",
@@ -10,16 +10,6 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  themeConfig: {
-    navbar: {
-      items: [
-        {
-          type: "localeDropdown",
-          position: "left",
-        },
-      ],
-    },
-  },
 
   presets: [
     [
@@ -78,6 +68,10 @@ const config = {
             href: "https://github.com/akimito/docu",
             label: "GitHub",
             position: "right",
+          },
+          {
+            type: "localeDropdown",
+            position: "left",
           },
         ],
       },
