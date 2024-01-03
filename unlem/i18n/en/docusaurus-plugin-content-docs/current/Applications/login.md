@@ -1,39 +1,39 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Login
-**Click to button on Login**
+**User Login**
 
-Unlem provides API's to make it possible for customers to create their custom integrations with Private Apps. Accessing Unlem API is designed to be simple and secure. An access token should be used to authenticate with Unlem APIs and send requests.
+Fields defined as username, e-mail, password to access the system and applications connected to the system
+Access to the system is provided by entering the User and Password sections on the login screen.
+
 
 ```js
 http://auth.unlemcloud.com/sign-in
 ```
-- username
-- password
+- Username
+- Password
 
-**Click to Forgot password**
+**Forgot Password**
 
-- Forgot password
+- Forgot Password
 
-Trouble logging in? Enter your email,  username and we'll send you a link to get back into your account
+If the password generated on behalf of the user defined in the system is forgotten, a new password will be generated and sent to the registered e-mail address.
 
 ```js
 http://auth.unlemcloud.com/password-reset
 ```
 
-**Click to Sign Up**
+**Sign in**
 
 :::tip
-- Sign Up
-Not a member? Please Register Now
-
-:::
+- Sign in
+If you are not a user, you can register with your user information if you are logging into the system for the first time.:::
 
 
 ```js
 http://auth.unlemcloud.com/sign-up
 ```
 
-![Docusaurus Plushie](./login.png)
+![Docusaurus Plushie](./media/Login.png)

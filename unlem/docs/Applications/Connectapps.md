@@ -1,14 +1,18 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# Connected Apps
+# Bağlı uygulamalar
 
-- List & Add Application on Add new button on Modal page
+DataTablo ekranında Eklenen Uygulama listesini görebilirsiniz
 
-![Docusaurus Plushie](./addmodal.png)
+İşlem Butonu aracılığıyla Düzenleme veya kayıt silme yapabilirsiniz.
 
 
-- width data table list Action Select Edit Delete buttons
+![Docusaurus Plushie](./media/appdetail.png)
+# Yeni Bildirim Oluşturma
 
-![Docusaurus Plushie](./datatablelist.png)
+
+![Docusaurus Plushie](./media/appdetail-login.png)
+
+Yeni ekle Butonu ile açılan Popup pencerede uygulamayı seçerek kayıt edebilirsiniz

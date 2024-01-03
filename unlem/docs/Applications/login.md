@@ -1,34 +1,36 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Login
-**Click to button on Login**
+# Giriş
+**Kullanıcı Girişi**
 
-Unlem provides API's to make it possible for customers to create their custom integrations with Private Apps. Accessing Unlem API is designed to be simple and secure. An access token should be used to authenticate with Unlem APIs and send requests.
+Sisteme ve Sisteme bağlı uygulamalara erişebilmek için kullanıcı adı ,eposta ,şifre olarak tanımlanan alanları
+giriş ekranında gelen Kullanıcı ve Şifre kısımlarına girerek sisteme erişim sağlanır.
+
 
 ```js
 http://auth.unlemcloud.com/sign-in
 ```
-- username
-- password
+- Kullanıcı Adı
+- Şifre
 
-**Click to Forgot password**
+**Şifremi Unuttum**
 
-- Forgot password
+- Şifremi Unuttum
 
-Trouble logging in? Enter your email,  username and we'll send you a link to get back into your account
+Sistemde Tanımlı Kullanıcı adına üretilmiş şifrenin unutulması durumunda sistem kayıtlı e-posta adresine yeni şifre üretilerek gönderilecektir.
+
 
 ```js
 http://auth.unlemcloud.com/password-reset
 ```
 
-**Click to Sign Up**
+**Kayıt Olma**
 
 :::tip
-- Sign Up
-Not a member? Please Register Now
-
+- Kayıt Olma
+Kullanıcı değilseniz Sisteme ilk defa giriş yapacaksanız kullanıcı bilgilerinizle kayıt olabilirsiniz.
 :::
 
 
@@ -36,4 +38,4 @@ Not a member? Please Register Now
 http://auth.unlemcloud.com/sign-up
 ```
 
-![Docusaurus Plushie](./login.png)
+![Docusaurus Plushie](./media/Login.png)

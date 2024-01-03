@@ -1,19 +1,19 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Application
 
-Application Information
+About Application
 
-- App Icon **[input]** 
-- App Code **[input]** 
-- App Name **[input]** 
+- Application icon **[input]** 
+- Application code **[input]** 
+- Application name **[input]** 
 - Domain **[input]** 
-- Status Select "True" or "False" button  **[Default]** false 
-- Private **[input]** 
-- Health Check Select "True" or "False" button  **[Default]** false 
+- Active or Passive Options **[Default]** Passive 
+- Secret **[Select]** 
+- Health Check Select "Active" or "Inactive" button **[Default]** Inactive 
 - Health Status Link **[input]** 
-- Control Period **[input]** 
+- Control Range **[input]**
 
-![Docusaurus Plushie](./app.png)
+![Docusaurus Plushie](./media/app.png)

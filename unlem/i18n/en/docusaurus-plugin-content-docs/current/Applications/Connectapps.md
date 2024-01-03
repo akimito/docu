@@ -1,14 +1,18 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# Connected Apps
+# Connected apps
 
-- List & Add Application on Add new button on Modal page
+You can see the list of Added Application in the DataTable screen
 
-![Docusaurus Plushie](./addmodal.png)
+You can edit or delete records via the Action Button.
 
 
-- width data table list Action Select Edit Delete buttons
+![Docusaurus Plushie](./media/appdetail.png)
+# Creating a New Notification
 
-![Docusaurus Plushie](./datatablelist.png)
+
+![Docusaurus Plushie](./media/appdetail-login.png)
+
+You can register by selecting the application in the popup window opened with the Add New button

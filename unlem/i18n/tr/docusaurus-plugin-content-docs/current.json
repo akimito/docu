@@ -3,9 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Applications": {
-    "message": "Applications",
-    "description": "The label for category Applications in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.![Docusaurus Plushie](./media/update02-modal.png)": {
+    "message": "Uygulamalar",
+    "description": "The label for category ![Docusaurus Plushie](./media/update02-modal.png) in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Gettingstarted": {
     "message": "Gettingstarted",

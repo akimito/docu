@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 ---
 
-# Change log
+# Değişiklik günlüğü
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

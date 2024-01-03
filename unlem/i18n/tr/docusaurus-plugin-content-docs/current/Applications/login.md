@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Giriş
@@ -38,4 +38,4 @@ Kullanıcı değilseniz Sisteme ilk defa giriş yapacaksanız kullanıcı bilgil
 http://auth.unlemcloud.com/sign-up
 ```
 
-![Docusaurus Plushie](./Login.png)
+![Docusaurus Plushie](./media/Login.png)

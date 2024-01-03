@@ -1,28 +1,27 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
-# Overview
+# Genel Bakış
 
-## App Health Status  Widget 
+## Uygulama Sağlık Durumu Widget'ı
 
-- Number of Successful Transactions Widget
-- Number of Failed Transactions Widget
-- Next Action Widget
+- Başarılı İşlem Sayısı Widget'ı
+- Başarısız İşlem Sayısı Widget'ı
+- Sonraki Eylem Widget'ı
 
+## Başvuru Süreci Grafiği
 
-## Application Process Graph
+- Grafik Grafik Verileri
 
-- Graphics Chart Data
+## Talepler
 
-## Requestes
+- Uygulama [Uygulama](https://)
+- Durum [ Status ] (https://)
+- Servis [ Service ](https://)
+- Talep [ Talep ](https://)
+- Talep Bitiş Zamanı [Talep Bitiş Zamanı] (https://)
+- Süre [ Duration ](https://)
+- Ayrıntılar [ Ayrıntılar ](https://)
 
-- App [App](https://)
-- Status  [ Status ](https://)
-- Service [ Service ](https://)
-- Request [ Request ](https://)
-- Request End Time [Request End Time ](https://)
-- Duration [ Duration ](https://)
-- Details [ Details ](https://)
-
-![Docusaurus Plushie](./Overview.png)
+![Docusaurus Plushie](./media/Overview.png)

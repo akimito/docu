@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Genel Bakış
@@ -24,4 +24,4 @@ sidebar_position: 3
 - Süre [ Duration ](https://)
 - Ayrıntılar [ Ayrıntılar ](https://)
 
-![Docusaurus Plushie](./Overview.png)
+![Docusaurus Plushie](./media/Overview.png)
